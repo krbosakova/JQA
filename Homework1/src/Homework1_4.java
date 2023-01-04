@@ -18,16 +18,19 @@ public class Homework1_4 {
         System.out.println("Insert you hour work rate!");
         double hourlyRate = scan.nextDouble();
         System.out.println("Is it a holiday true or false");
-        boolean holiday= scan.hasNextBoolean();
+        boolean holiday= scan.nextBoolean();
         double pocketMoney= workHours*hourlyRate;
         System.out.println("I have: "+pocketMoney+" leva");
 
-        if(holiday && pocketMoney>0){
+        if(holiday ){
+            if(pocketMoney==0){
+                System.out.println("I am staying home watching tv");
+
+            }
             if (pocketMoney>10){
                 System.out.println("I am going to see a movie!");
             }
-            else
-            {
+            else if(pocketMoney<10&&pocketMoney>0){
                 System.out.println("I am going for an ice cream");
             }
         }
