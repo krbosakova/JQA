@@ -1,3 +1,5 @@
+package Homework2;
+
 public class Homework2_6 {
     public static void main(String[] args) {
         int[] firstArr = {1, 2, 3};

@@ -1,3 +1,5 @@
+package Homework1;
+
 public class Homework1_7 {
     public static void main(String[] args) {
         //Да се изведат числата от 1 до 100 без числата от 54 до 74.

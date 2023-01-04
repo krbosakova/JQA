@@ -1,3 +1,5 @@
+package Homework1;
+
 public class Homework1_5 {
     public static void main(String[] args) {
         //Да се изведат числата от 1 до 100 във

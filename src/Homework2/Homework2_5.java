@@ -1,3 +1,5 @@
+package Homework2;
+
 public class Homework2_5 {
     public static void main(String[] args) {
         int [] numbers =  {10, 12, 1, 8, 4};
