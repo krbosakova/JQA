@@ -23,7 +23,7 @@ public class Demo {
                 } else if (value instanceof Employee) {
                     ((Employee) value).showEmployeeInfo();
                 } else {
-                    value.showPersonInfo();
+                    value.showPersonInfo(); 
                 }
             }
         }
